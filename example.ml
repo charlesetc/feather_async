@@ -3,7 +3,7 @@ open! Async
 open! Stdio
 open! Feather
 open! Feather_async
-open! Feather.File_redirection_infix
+open! Feather.Infix
 
 let main () : unit Deferred.t =
   let%bind () = echo "hello world\nwow\ncool" |. sort |> run in

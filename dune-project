@@ -9,4 +9,4 @@
 (package
   (name "feather_async")
   (synopsis "Async interface to Feather, a library for executing shell commands easily")
-  (depends dune core async feather))
+  (depends dune base async feather))
