@@ -1,6 +1,9 @@
 (lang dune 2.6)
 (name feather_async)
-(version b1fb1b724cc0)
+(version 0.2.0)
+(source (github charlesetc/feather_async))
+(homepage "https://github.com/charlesetc/feather_async")
+(bug_reports "https://github.com/charlesetc/feather_async")
 (license MIT)
 (authors "Charles Chamberlain")
 (maintainers "charles@nrwhl.xyz")
@@ -9,4 +12,8 @@
 (package
   (name "feather_async")
   (synopsis "Async interface to Feather, a library for executing shell commands easily")
-  (depends dune base async feather))
+  (depends
+    (feather (= version))
+    dune
+    base
+    async))
