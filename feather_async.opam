@@ -16,6 +16,7 @@ depends: [
   "async"
   "odoc" {with-doc}
 ]
+dev-repo: "git+https://github.com/charlesetc/feather_async.git"
 build: [
   ["dune" "subst"] {dev}
   [
@@ -26,8 +27,6 @@ build: [
     "-j"
     jobs
     "@install"
-    "@runtest" {with-test}
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/charlesetc/feather_async.git"
