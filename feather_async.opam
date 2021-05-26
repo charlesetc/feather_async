@@ -9,6 +9,7 @@ license: "MIT"
 homepage: "https://github.com/charlesetc/feather_async"
 bug-reports: "https://github.com/charlesetc/feather_async"
 depends: [
+  "ocaml" {>= "4.08"}
   "feather" {= "version"}
   "dune" {>= "2.7"}
   "base"
