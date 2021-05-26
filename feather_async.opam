@@ -10,7 +10,7 @@ homepage: "https://github.com/charlesetc/feather_async"
 bug-reports: "https://github.com/charlesetc/feather_async"
 depends: [
   "ocaml" {>= "4.08"}
-  "feather" {= "version"}
+  "feather" {= "0.2.0"}
   "dune" {>= "2.7"}
   "base"
   "async"

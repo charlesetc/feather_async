@@ -14,7 +14,7 @@
   (synopsis "Async interface to Feather, a library for executing shell commands easily")
   (depends
     (ocaml (>= 4.08))
-    (feather (= version))
+    (feather (= 0.2.0))
     dune
     base
     async))
