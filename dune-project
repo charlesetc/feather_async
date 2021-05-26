@@ -1,4 +1,4 @@
-(lang dune 2.6)
+(lang dune 2.7)
 (name feather_async)
 (version 0.2.0)
 (source (github charlesetc/feather_async))

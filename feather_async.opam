@@ -10,12 +10,13 @@ homepage: "https://github.com/charlesetc/feather_async"
 bug-reports: "https://github.com/charlesetc/feather_async"
 depends: [
   "feather" {= "version"}
-  "dune" {>= "2.6"}
+  "dune" {>= "2.7"}
   "base"
   "async"
+  "odoc" {with-doc}
 ]
 build: [
-  ["dune" "subst"] {pinned}
+  ["dune" "subst"] {dev}
   [
     "dune"
     "build"
